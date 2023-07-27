@@ -7,9 +7,9 @@ int main() {
     float fahr, celsius;
     int lower, upper, step;
     
-    lower = 0; /* lower limit of temp table */
+    lower = 0;   /* lower limit of temp table */
     upper = 300; /* duh... */
-    step = 20; /* step size for fahr */
+    step = 20;   /* step size for fahr */
     
     fahr = lower;
     printf("Fahrenheit\tCelsius\n");
