@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-/*  TIP: °F = (°C × 9/5) + 32 and  °C = (5/9) * (°F - 32) */
+/* °F = (°C × 9/5) + 32 and  °C = (5/9) * (°F - 32) */
 /*  print Celius to Fahr table for celsius = 0, 20, ..., 300 */
 
 int main() {
@@ -14,7 +14,7 @@ int main() {
     step = 20;    /* step size for celsius */
     
     celsius = lower;
-    printf("Celsius\tFahrenheit\n");
+    printf("Celsius\t\tFahrenheit\n");
     while ( celsius <= upper ) {
         fahr = (celsius * (9.0/5.0) + 32.0 );
         printf("%.0f\t\t\t%.1f\n", celsius, fahr);
